@@ -60,3 +60,11 @@ Steps:
        7.2 Monitor the pipeline stages and fix any issues that arise.
 
 This end-to-end Jenkins pipeline will automate the entire CI/CD process for a Java application, from code checkout to production deployment, using popular tools like SonarQube, Argo CD, Helm, and Kubernetes.
+   8.   step 1: sudo vi /var/lib/jenkins/config.xml
+        step 2:  <useSecurity>true</useSecurity>  make it as a false 
+        step 3 : sudo systemctl restart jenkins
+        step 4 : sudo systemctl restart jenkins
+
+more details : https://medium.devcloudlabs.co.in/jenkins-admin-password-reset-step-by-step-bfba85defee8
+
+
